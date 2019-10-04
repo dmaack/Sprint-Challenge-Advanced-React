@@ -1,7 +1,8 @@
 import React from 'react';
 import axios from 'axios';
-import './App.css';
+import './App.scss';
 import PlayerContainer from './components/PlayerContainer';
+import Header from './components/Header';
 
 class App extends React.Component {
   constructor() {
@@ -31,7 +32,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>Women's World Cup Player Roster</h1>
+        <Header />
         <div>
           <PlayerContainer playerData={this.state.players} />
         </div>

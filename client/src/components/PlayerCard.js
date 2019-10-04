@@ -9,13 +9,13 @@ import {
 class PlayerCard extends React.Component {
     render() {
         return (
-            <div className='cards'>
-                <Card>
-                    <CardBody>
-                        <CardTitle>{this.props.playerData.name}</CardTitle>
-                        <CardSubtitle>{this.props.playerData.country}</CardSubtitle>
+            <div className='cards-container'>
+                <Card className='cards'>
+                    <CardBody className='card-body'>
+                        <CardTitle className='player-name'>{this.props.playerData.name}</CardTitle>
+                        <CardSubtitle className='player-country'>{this.props.playerData.country}</CardSubtitle>
                     </CardBody>
-                    <CardText><strong>Searches: </strong>{this.props.playerData.searches}</CardText>
+                    <CardText className='player-searches'><strong>Searches: </strong>{this.props.playerData.searches}</CardText>
                 </Card>
             </div>
         )
