@@ -17,6 +17,15 @@
   box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
 }
 
+.header{
+  border-bottom: 1px solid green;
+  padding-bottom: 2%;
+  padding-top: 5%;
+  color: darkslategrey;
+  font-size: 2rem;
+  background-color: rgb(200, 248, 200);
+}
+
 .dark-mode__toggle {
   background: papayawhip;
   border-radius: 50px;
@@ -24,6 +33,7 @@
   height: 20px;
   position: relative;
   width: 40px;
+  margin-left: 90%;
 }
 
 .toggle {
@@ -34,6 +44,7 @@
   position: absolute;
   transition: 0.2s;
   width: 20px;
+  
 }
 
 .toggled {
@@ -48,7 +59,55 @@
     background-color: #1F2022;
     border: none;
   }
+  .header{
+    border-bottom: 1px solid lightblue;
+    color: #1F2022;
+  }
   .stroke{
     color: blue;
   }
+  .card{
+    background-color: lightblue;
+    color: black;
+    box-shadow: 10px 10px 8px #000a0f;
+    border: 2px solid rgb(200, 248, 200);
+  }
+  .toggle{
+    color: #fff;
+  background-color: #313843;
+  }
+}
+
+.card-container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.card {
+  max-width: 25%;
+  margin: 2rem 3rem;
+  border: 1px solid ;
+  border-radius: 3px;
+  padding: 1rem 2rem;
+  box-shadow: 10px 10px 8px #012233;
+  color: green;
+  background-color: rgb(224, 230, 173);
+}
+
+.name{
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  // color: #012233;
+}
+
+img{
+  margin-bottom: 1rem;
+}
+a{
+ text-decoration: none;
+ color: rgb(9, 74, 95);
 }

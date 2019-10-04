@@ -5,7 +5,7 @@ class PlayerContainer extends React.Component {
     render() {
         console.log('player container props', this.props.players)
         return (
-            <div>
+            <div className='card-container'>
                 {this.props.playerData.map(player => <PlayerCard key={player.id} playerData={player} />)}
             </div>
         )
