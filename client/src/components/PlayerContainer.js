@@ -2,6 +2,8 @@ import React from 'react';
 import PlayerCard from './PlayerCard';
 
 class PlayerContainer extends React.Component {
+    
+    
     render() {
         console.log('player container props', this.props.players)
         return (
@@ -11,5 +13,6 @@ class PlayerContainer extends React.Component {
         )
     }
 }
+
 
 export default PlayerContainer;

@@ -13,7 +13,7 @@ class PlayerCard extends React.Component {
                 <Card className='card'>
                     <CardBody className='card-body'>
                         <CardTitle className='name'>{this.props.playerData.name}</CardTitle>
-                        <img width='100%' src={image} alt='image of soccer ball on field' />
+                        <img width='100%' src={image} alt='soccer ball on field' />
                         <CardSubtitle className='player-country'>{this.props.playerData.country}</CardSubtitle>
                     </CardBody>
                     <CardText className='player-searches'><strong>Searches: </strong>{this.props.playerData.searches}</CardText>
