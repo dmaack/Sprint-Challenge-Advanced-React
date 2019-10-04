@@ -15,7 +15,7 @@ class PlayerCard extends React.Component {
                         <CardTitle>{this.props.playerData.name}</CardTitle>
                         <CardSubtitle>{this.props.playerData.country}</CardSubtitle>
                     </CardBody>
-                    <CardText>{this.props.playerData.searches}</CardText>
+                    <CardText><strong>Searches: </strong>{this.props.playerData.searches}</CardText>
                 </Card>
             </div>
         )
