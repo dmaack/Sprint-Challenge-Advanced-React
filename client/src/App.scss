@@ -81,6 +81,10 @@
     color: black;
     box-shadow: 10px 10px 8px #000a0f;
     border: 2px solid rgb(200, 248, 200);
+    .player-country{
+      
+      color: rgb(12, 29, 12);
+    }
   }
   .toggle{
     color: #fff;
@@ -104,6 +108,11 @@
   box-shadow: 10px 10px 8px #012233;
   color: green;
   background-color: rgb(224, 230, 173);
+  .player-country{
+    font-size: 1rem;
+    font-weight: bold;
+    color: red;
+  }
 }
 
 .name{
